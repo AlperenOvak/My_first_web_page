@@ -38,7 +38,7 @@ button:hover{
     background-color: rgba(0, 57, 71, 0.8);
 }
 
-li, a, button{
+li, a, button, p, h1, h2{
     font-family: "Montserrat",sans-serif;
     font-weight: 500;
     font-size: 16px;
@@ -131,7 +131,10 @@ header{
     position:absolute;
     border-radius: 10px;
   }
-
+.whiteBox_text{
+    padding: 5px;
+    color: #0088a9;
+}
 .container3{
     width: 100%;
     position: relative;
@@ -148,11 +151,34 @@ header{
 
 .container4{
     width: 100%;
-    height: 1000px;
     position: relative;
-    background-image: url("images/pattern.webp");
-    background-size: 50px;
+    background-image: url("images/bej_pattern.jpg");
+    background-size: 100px;
     padding: 100px;
+}
+.container4_text {
+    font-family: "Montserrat",sans-serif;
+    font-weight: 500;
+    font-size: 28px;
+    color:darkslategrey;
+    text-decoration: none;
+    padding-top: 10px;
+}
+
+.container4_header {
+    font-weight: 700;
+    font-size: 32px;
+    color:darkslategrey;
+    text-decoration: none;
+    padding-top: 10px;
+}
+
+.container4 .link_header{
+    color:rgb(214, 0, 86);
+}
+
+.container4 .link_header :hover{
+    color:rgb(101, 5, 44);
 }
 
 .column {
@@ -168,3 +194,10 @@ header{
     clear: both;
     display: table;
   }
+
+.logo_CYHM{
+    width: 30%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
